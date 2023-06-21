@@ -256,24 +256,11 @@ footer .social-icons{
 }
 
 
-@media (max-width:375px){
-    *{
-        font-family: 'Poppins', sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
+@media (max-width:1300px){
     header{
         padding: 10px;
-        position:absolute;
-        display: flex;
-        align-self: center;
+        position:absolute; 
         flex-direction: column;
-        flex-wrap: wrap;
-    }
-    header a span{
-        font-size: 1em;
     }
     .logo{
         font-weight: 1000;
@@ -283,6 +270,7 @@ footer .social-icons{
     }
     .navigation{
         padding-top: 15px ;
+        text-align: center;
     }
     .navigation a{
         color: rgb(206, 206, 206);
@@ -293,53 +281,85 @@ footer .social-icons{
     }
     section{
         padding: 140px 0px 0 0px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
     }
     .main{
         min-width: 0vh;
         display:block;
         align-items: center;
-        background-color: rgb(36, 37, 46);
         background-size: cover;
         background-position:center;
         background-attachment: fixed;
     }
-    .main h1{
-        color: rgb(247, 133, 27);
-        font-size:2em;
-        font-weight: 600;
-    }
     .main h2{
         margin-top: 10px;
-        color: rgb(247, 133, 27);
-        font-size: 2.8em;
-        font-weight: 2000;
-        letter-spacing: 1px;
     }
     .main h3{
         margin-top: 10px;
-        color: rgb(255, 255, 255);
-        font-size: 2;
-        font-weight: 500;
-        letter-spacing: 1px;
         margin-top: 10px;
         margin-bottom: 37px;
     }
     .main span{
-        display: inline-block;
         margin-top: 10px;
-        color: rgb(247, 133, 27);
-        font-size:1.8em;
-        font-weight: 600;
     }
     .main h4{
         margin-top: 10px;
-        color: rgb(255, 254, 253);
-        font-size: 1.2em;
-        font: weight 700px;
         padding-right: 10px;
-        letter-spacing: 3px;
+    }
+    .main-btn{
+        margin-left: 55px;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .social-icons{
+        padding-left: 60px;
+    }
+    .social-icons a{
+        padding:20px;
+    }
+    .card{
+        padding: 20px;
+        margin: 15px;
+    }
+    .info h3{
+        margin: 10px;
+    }
+    .info h4{
+        margin: 10px;
+    }
+    .info p{
+        margin: 10px;
+        padding-bottom: 20px;
+    }
+    .title2{
+        margin-bottom:30px ;
+    }
+    .service h3{
+        margin: 10px;
+    }
+    .service h4{
+        margin: 10px;
+    }
+    .projects h3{
+        margin: 10px;
+    }
+    .icon2{
+        padding-top: 50px;
+    }
+    .contact{
+        margin: 10px;
+    }
+    .title-footer{
+       padding-bottom: 30px;
+    }
+    footer .social-icons{
+        padding: 10px;
+    }
+}
+@media (max-width:370px){
+    .navigation a{
+        padding-left: 10px;
     }
     .main-btn{
         color: aliceblue;
@@ -348,160 +368,10 @@ footer .social-icons{
         font-size: 1.4em;
         font-weight: 600;
         display: inline-block;
-        margin-left: 55px;
-        padding: 0.9375em 2.1875em;
+        padding: 0.8375em 1.1875em;
         letter-spacing: 1px;
         border-radius: 15px;
         margin-bottom: 30px;
     }
-    .main-btn:hover{
-        color: rgb(36, 37, 46);
-        background-color: rgb(240, 95, 20);
-        letter-spacing: 1px;
-        transform: scale(1.1);
-        transition: 0.6s ease;
-    }
-    .social-icons{
-        padding-left: 40px;
-    }
-    .social-icons a{
-        color: aliceblue;
-        font-size: 1.2em;
-        padding:20px;
-        text-decoration: none;
-    }
-    .title{
-        display: flex;
-        justify-content: center;
-        color: rgb(247, 133, 27);
-        font-size: 2.3em;
-        font-weight: 850;
-        margin-bottom:30px ;
-    }
-    .card{
-        background-color:aliceblue;
-        width: 20em;
-        box-shadow: 0 5px 25px rgba(49, 48, 48, 0.3);
-        border-radius: 10px;
-        padding: 20px;
-        margin: 15px;
-    }
-    .card:hover{
-        transform: scale(1.1);
-        transition: 0.9s ease;  
-    }
-    section a{
-        text-decoration: none;
-    }
-    .icon{
-        color:rgb(247, 133, 7);
-        font-size:2em;
-        text-align:center;
-    }
-    .content{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-    }
-    .info h3{
-        color:rgb(247, 133, 7);
-        font-size: 1.8em;
-        font-weight: 700;
-        margin: 10px;
-    }
-    .info h4{
-        color:rgb(36, 37, 46);
-        font-size: 1.2em;
-        font-weight: 600;
-        margin: 10px;
-    }
-    .info p{
-        color:rgb(36, 37, 46) ;
-        font-size: 1.2em;
-        font-weight: 500;
-        margin: 10px;
-        padding-bottom: 20px;
-    }
-    .title2{
-        display: flex;
-        justify-content: center;
-        color: rgb(230, 139, 20);
-        font-size: 2.3em;
-        font-weight: 850;
-        margin-bottom:30px ;
-    }
-    .service h3{
-        color:rgb(41, 141, 187);
-        font-size: 1.2em;
-        font-weight: 700;
-        margin: 10px;
-    }
-    .service h4{
-        margin: 10px;
-    }
-    .projects h3{
-        color:rgb(230, 139, 20);
-        font-size: 1.2em;
-        font-weight: 700;
-        margin: 10px;
-    }
-    .icon2{
-        padding-top: 50px;
-    }
-    .contact{
-        color:rgb(41, 141, 187);
-        font-size: 1.2em;
-        font-weight: 700;
-        margin: 10px;
-    }
-    .cards1{
-        background-color: rgb(36, 37, 46) ;
-    }
-    .projects h4 {
-        color:rgb(36, 37, 46);
-    } 
-    .contact h4 {
-        color:rgb(36, 37, 46);
-    } 
-    .service h4 {
-        color:rgb(36, 37, 46);
-    }
-    .card p{
-        font-size: 1.1em;
-        font-weight: 400;  
-    }
-    .service p {
-        color:rgb(36, 37, 46);
-    } 
-    .contact p {
-        color:rgb(36, 37, 46);
-    } 
-    .projects p {
-        color:rgb(36, 37, 46);
-    }
-    footer{
-        background-color: rgb(37, 33, 33);
-        color:aliceblue;
-        padding: em;
-    }
-    .title-footer{
-        font-size: 1.2em;
-        font-weight: 350;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    .title-footer span{
-        font-weight: 600;
-        color: rgb(230, 139, 20);
-    }
-    footer .social-icons{
-        color: aliceblue;
-        font-size: 1.2em;
-        padding: 13px;
-        text-decoration: none;
-        margin-left: 40px;
-    }
+
 }
