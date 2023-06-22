@@ -198,6 +198,12 @@ footer{
      footer .social-icons{
          padding: 10px;
      }
+     .social-icons a {
+        color: aliceblue;
+        font-size: 1em;
+        padding: 17px;
+        text-decoration: none;
+    }
 }
 @media(max-width:1016px){
     .se-info{
@@ -211,6 +217,18 @@ footer{
     .key_words{
         font-size: 19px;
         letter-spacing: 0.8px;
+    }
+    .title-footer{
+        padding-bottom: 30px;
+        font-size: 1em;
+        font-weight: 350;
+     }
+     footer .social-icons{
+        padding: 10px;
+     }
+     .title-footer span{
+        font-weight: 500;
+        color: rgb(230, 139, 20);
     }
 }
 @media(max-width:950px){
@@ -243,8 +261,30 @@ footer{
     .infos{
         line-height:2cm;
     }
+    .title-footer{
+        font-size: 1em;
+        font-weight: 350;
+     }
 }
 @media(max-width :735px){
+    header{
+        padding: 10px 5px 10px ;
+        position:absolute; 
+        flex-direction: column;
+    }
+    .logo{
+        font-weight: 800;
+        font-size: 1.3em;
+        text-align: center;
+        
+    }
+   .navigation a {
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        padding-left: 5px;
+    }
     .section{
         padding: 90px 50px;
     }
@@ -293,5 +333,39 @@ footer{
     .key_words{
         font-size: 16px;
         letter-spacing: 0.8px;
+    }
+    .title-footer{
+        font-size: 0.8em;
+        font-weight: 250;
+    }
+    .title-footer span{
+        font-weight: 250;
+    }
+    .footer .social-icons {
+        font-size: 0.8em;
+        text-align: center;
+        padding: 10px ;
+    }
+    .social-icons a {
+        color: aliceblue;
+        font-size: 1em;
+        padding: 17px;
+        text-decoration: none;
+    }
+}
+@media(max-width :335px){
+    .section{
+        padding: 90px 30px;
+    }
+    .card{
+        margin-top: 25px;
+        font-size: 12px;
+        padding: 20px;
+        letter-spacing: 1px;
+        border-style:none;
+        border-radius: 20px;
+        box-shadow:  10px 10px 60px rgba(57, 55, 55, 0.663);
+        border-width: 80px;
+        background-color:  rgba(255, 81, 0, 0.322);
     }
 }
