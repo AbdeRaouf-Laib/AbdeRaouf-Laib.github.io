@@ -106,15 +106,13 @@ h3{
     width: 40%;
     animation: Python 3s;
 }
-<<<<<<< HEAD
 .Hardware{
     width: 60%;
     animation: Hardware 3s;
-=======
+}
 .javascript{
     width: 40%;
     animation: JavaScript 3s;
->>>>>>> e607097 (change)
 }
 .html{
     width: 80%;
