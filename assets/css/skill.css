@@ -103,11 +103,11 @@ h3{
     animation: C 3s;
 }
 .Python{
-    width: 40%;
+    width: 65%;
     animation: Python 3s;
 }
 .Hardware{
-    width: 60%;
+    width: 68%;
     animation: Hardware 3s;
 }
 .javascript{
@@ -123,7 +123,7 @@ h3{
     animation: CSS 3s;
 }
 .Linux{
-    width: 40%;
+    width: 30%;
     animation: Linux 3s;
 }
 @keyframes C {
