@@ -245,6 +245,10 @@ footer{
     width: 65%;
     animation: REACT 3s;
 }
+.Django{
+    width: 52%;
+    animation: Django 3s;
+}
 .NCURSES{
     width: 85%;
     animation: NCURSES 3s;
@@ -283,6 +287,14 @@ footer{
     }
     100%{
         width: 25%;
+    }
+}
+@keyframes Django {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 52%;
     }
 }
 @media (max-width:1000px){
