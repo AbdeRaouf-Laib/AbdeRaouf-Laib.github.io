@@ -238,11 +238,11 @@ footer{
     padding: 0 10px 0 0;
 }
 .NODEJS{
-    width: 15%;
+    width: 35%;
     animation: NODEJS 3s;
 }
 .REACT{
-    width: 10%;
+    width: 65%;
     animation: REACT 3s;
 }
 .NCURSES{
@@ -266,7 +266,7 @@ footer{
         width: 0%;
     }
     100%{
-        width: 10%;
+        width: 65%;
     }
 }
 @keyframes NODEJS {
@@ -274,7 +274,7 @@ footer{
         width: 0%;
     }
     100%{
-        width: 15%;
+        width: 35%;
     }
 }
 @keyframes DISCORDJS {
