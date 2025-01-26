@@ -106,6 +106,10 @@ h3{
     width: 65%;
     animation: Python 3s;
 }
+.Dart{
+    width: 90%;
+    animation: Dart 3s;
+}
 .Hardware{
     width: 68%;
     animation: Hardware 3s;
@@ -132,6 +136,14 @@ h3{
     }
     100%{
         width: 85%;
+    }
+}
+@keyframes Dart {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
     }
 }
 @keyframes Hardware{
@@ -241,6 +253,10 @@ footer{
     width: 35%;
     animation: NODEJS 3s;
 }
+.Flutter{
+    width: 80%;
+    animation: FLUTTER 3s;
+}
 .REACT{
     width: 65%;
     animation: REACT 3s;
@@ -263,6 +279,14 @@ footer{
     }
     100%{
         width: 85%;
+    }
+}
+@keyframes FLUTTER {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
     }
 }
 @keyframes REACT {

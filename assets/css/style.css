@@ -280,7 +280,8 @@ footer .social-icons{
         padding-left: 13px;
     }
     section{
-        padding: 140px 0px 0 0px;
+        padding: 100px 15px;
+
     }
     .main{
         min-width: 0vh;
@@ -361,6 +362,7 @@ footer .social-icons{
     }
 }
 @media (max-width:540px){
+    
     .main-btn{
         color: aliceblue;
         background-color:rgb(210, 120, 20) ;
